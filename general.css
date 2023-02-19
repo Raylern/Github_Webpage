@@ -1,0 +1,163 @@
+@import url("layout.css");
+/* Loads layout stylesheet separately to prevent IE5 from screwing up */
+
+
+body,
+p {
+    font: 16px/170% sans-serif;
+    color: #6e6e6f;
+}
+
+body.index {
+    background: url(resources/bg_pattern.jpg);
+    text-align: left;
+    margin: 5px;
+}
+
+img {
+    border: 0;
+}
+
+pre {
+    font: normal 8px/100% courier;
+    color: #000000;
+}
+
+h1 {
+    font: normal 20px/120% sans-serif;
+    text-align: left;
+    margin-bottom: 1px;
+    color: #133976;
+}
+
+h2 {
+    font: normal 16px/16px sans-serif;
+    margin: 0 0 1px 0;
+    text-align: left;
+    color: #133976;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+h3 {
+    font: normal 16px/16px sans-serif;
+    margin: 0 0 1px 0;
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+hr {
+    background-color: #6e6e6f;
+    color: #6e6e6f;
+    height: 1px;
+    border: 0;
+}
+
+p.citation {
+    text-indent: -1em;
+    padding: 0px 0px 4px 3em;
+}
+
+p.abstract {
+    font-style: italic;
+    padding: 0px 2em 2px 2em;
+}
+
+
+a:link,
+a:visited {
+    color: #007dab;
+    text-decoration: none;
+}
+
+a:active,
+a:hover {
+    color: #004e6b;
+    text-decoration: none;
+}
+
+a.side:link,
+a.side:visited {
+    font: normal 16px/120% sans-serif;
+    color: #9ed7ec;
+}
+
+a.side:active,
+a.side:hover {
+    font: normal 16px/120% sans-serif;
+    color: #8fc3d6;
+}
+
+.blog {
+    width: 92%;
+    text-align: left;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #FFF;
+}
+
+.blogbody {
+    border-top: 1px solid #AAA;
+    padding-bottom: 10px;
+    padding-left: 3px;
+}
+
+
+.otherbody {
+    padding-bottom: 10px;
+    padding-left: 3px;
+    margin-top: 5px;
+}
+
+.deco {
+    float: left;
+    height: 16px;
+}
+
+.totop {
+    float: left;
+    border: 1px solid #DDCDCD;
+    margin-left: 2px;
+}
+
+.divider {
+    font-family: verdana, arial, sans-serif;
+}
+
+
+.sidetitle {
+    font: normal 16px/16px sans-serif;
+    color: #000000;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #777;
+}
+
+.quote {
+    margin: 10px auto;
+    width: 97%;
+    background-color: #FFF3BF;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+#copyright {
+    margin-top: 25px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+/* All the content boxes belong to the content class. */
+.content2 {
+    /* Position is declared "relative" to gain control of stacking order
+     (z-index). */
+    position: relative;
+    width: auto;
+    min-width: 310px;
+    margin: 10px 10px 10px 10px;
+    /* This allows the content to overlap the right menu in narrow windows in
+     good browsers. */
+    z-index: 3;
+}
