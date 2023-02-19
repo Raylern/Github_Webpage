@@ -1,0 +1,43 @@
+.header img,
+#leftcontent img {
+    float: left;
+}
+
+.header {
+    width: 743px;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+    width: 743px;
+}
+
+.leftcontent {
+    width: 228px;
+}
+
+.leftmenu {
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+#rightcontent {
+    float: right;
+    width: 488px;
+}
+
+.content {
+    margin: 0 auto;
+    width: 719px;
+    float: left;
+    background: #FFF
+        /*url(resources/bg_blue.png) left repeat-y */
+    ;
+    border-left: 10px solid #E9EAE9;
+    border-right: 10px solid #E9EAE9;
+    border-bottom: 10px solid #E9EAE9;
+    padding: 0 2px 2px 2px;
+    text-align: left;
+}
